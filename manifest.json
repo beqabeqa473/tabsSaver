@@ -1,0 +1,23 @@
+{
+"manifest_version": 2,
+"name": "Tabs saver",
+"description": "This extension makes possible to save URLs and titles of all tabs from all opened windows in a text file",
+"version": "0.1.0",
+"background": {
+"scripts": ["background.js"],
+"persistent": false
+},
+
+"permissions": [
+"tabs"
+],
+
+"commands": {
+"download": {
+"suggested_key": {
+"default": "Alt+L"
+},
+"description": "Save tabs list"
+}
+}
+}
